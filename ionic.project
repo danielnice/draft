@@ -1,4 +1,12 @@
 {
   "name": "sell",
-  "app_id": "b4223aa9"
+  "app_id": "b4223aa9",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }

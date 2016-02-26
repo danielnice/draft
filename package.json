@@ -22,7 +22,11 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard",
     "cordova-plugin-contacts",
-    "cordova-plugin-device-orientation"
+    "cordova-plugin-device-orientation",
+    {
+      "locator": "https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git",
+      "id": "cordova-plugin-calendar"
+    }
   ],
   "cordovaPlatforms": [
     "ios",

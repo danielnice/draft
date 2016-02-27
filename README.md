@@ -9,10 +9,18 @@ ionic state save
 ionic state reset
 
 ionic serve
+ionic serve --lab
 
 ionic run android
+ionic run ios --livereload
 
 ionic setup sass
+
+ionic upload
+
+
+
+
 
 Technologies
 Angular

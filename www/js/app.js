@@ -1,4 +1,4 @@
-angular.module('sell', ['ionic'])
+angular.module('draft', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

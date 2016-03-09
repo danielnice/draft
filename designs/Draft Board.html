@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:8100/#/app/dashboard -->
+<html><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <script>
+      // Injected Ionic Go To URL Live Reload Plugin
+      window.LiveReloadPlugin_IonicGoToUrl = (function() {
+        var GOTO_KEY = "__ionic_goto_url__";
+        var HISTORY_GO_KEY = "__ionic_history_go__";
+        var GoToUrlPlugin = function(window, host) {
+          this.window = window;
+          this.host = host;
+        }
+        GoToUrlPlugin.identifier = "__ionic_goto_url__";
+        GoToUrlPlugin.version = "1.0";
+        GoToUrlPlugin.prototype.reload = function(path) {
+          try {
+            if(path) {
+              if(path.indexOf(GOTO_KEY) === 0) {
+                this.window.document.location = path.replace(GOTO_KEY, "");
+                return true;
+              }
+              if(path.indexOf(HISTORY_GO_KEY) === 0) {
+                this.window.document.history.go( parseInt(path.replace(HISTORY_GO_KEY, ""), 10));
+                return true;
+              }
+            }
+          } catch(e) {
+            console.log(e);
+          }
+          return false;
+        };
+        return GoToUrlPlugin;
+      })();
+    </script>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Draft Board</title>
+
+    <!-- compiled css output -->
+    <link href="./Draft Board_files/ionic.app.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="./Draft Board_files/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="./Draft Board_files/cordova.js"></script>
+
+    <!-- app's JS -->
+    <script src="./Draft Board_files/app.js"></script>
+
+    <!-- Angular Modules -->
+    <script src="./Draft Board_files/common.js"></script>
+    <script src="./Draft Board_files/data-service.js"></script>
+    <script src="./Draft Board_files/template.js"></script>
+    <script src="./Draft Board_files/dashboard.js"></script>
+
+  </head>
+
+  <body ng-app="draft" class="grade-a platform-browser platform-ios platform-ios9 platform-ios9_2 platform-ready">
+    <ion-nav-view class="view-container" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-side-menus enable-menu-with-back-views="false" class="template pane view" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);">
+  <ion-side-menu-content drag-content="true" class="menu-content pane menu-animated" style="transform: translate3d(0px, 0px, 0px);">
+    <ion-nav-bar class="bar-stable nav-bar-container" nav-bar-transition="ios" nav-bar-direction="none" nav-swipe="">
+      <ion-nav-back-button class="hide"></ion-nav-back-button>
+      <ion-nav-buttons side="left" class="hide"></ion-nav-buttons>
+    <div class="nav-bar-block" nav-bar="cached"><ion-header-bar class="bar-stable bar bar-header" align-title="center"><button ng-click="$ionicGoBack()" class="button back-button hide buttons  button-clear header-item"><i class="icon ion-ios-arrow-back"></i> 
+      <span class="back-text"><span class="default-title">Back</span><span class="previous-title hide"></span></span></button><div class="buttons buttons-left header-item"><span class="left-buttons">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </span></div><div class="title title-center header-item"></div></ion-header-bar></div><div class="nav-bar-block" nav-bar="active"><ion-header-bar class="bar-stable bar bar-header" align-title="center"><button ng-click="$ionicGoBack()" class="button back-button hide buttons  button-clear header-item"><i class="icon ion-ios-arrow-back"></i> 
+      <span class="back-text"><span class="default-title">Back</span><span class="previous-title hide"></span></span></button><div class="buttons buttons-left header-item"><span class="left-buttons">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </span></div><div class="title title-center header-item" style="left: 45px; right: 45px;">Draft Board</div></ion-header-bar></div></ion-nav-bar>
+
+    <div class="bar-stable bottom" style="
+    display: block;
+    height: 100px;
+">
+      <ion-nav-back-button class="hide"></ion-nav-back-button>
+      <ion-nav-buttons side="left" class="hide"></ion-nav-buttons>
+    </div>
+
+
+
+    <ion-nav-view name="menuContent" class="view-container" nav-view-transition="ios" nav-view-direction="none" nav-swipe=""><ion-view class="dashboard pane" view-title="Draft Board" nav-view="active" style="opacity: 1; transform: translate3d(0%, 0px, 0px);">
+	<ion-content class="scroll-content ionic-scroll  has-header"><div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+		<div class="card">
+		  <div class="item item-text-wrap">
+		    <h2 class="name">Daniel</h2>
+		    <div class="data">
+		    	<span class="label">Phone: </span><span class="value">720-323-3767</span>
+		    </div>
+		    <div class="data">
+		    	<span class="label">Gender: </span><span class="value">Male</span>
+		    </div>
+		    <div class="data">
+		    	<span class="label">Age: </span><span class="value">29</span>
+		    </div>
+		  </div>
+		</div>
+	</div><div class="scroll-bar scroll-bar-v"><div class="scroll-bar-indicator scroll-bar-fade-out" style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 0px;"></div></div></ion-content>
+</ion-view></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" is-enabled="true" width="275" class="menu menu-left" style="width: 275px; z-index: 0;">
+    <ion-content class="menu scroll-content ionic-scroll"><div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+      <ion-list class="disable-user-behavior"><div class="list">
+        <ion-item menu-close="" href="#/app/dashboard" class="item item-complex"><a class="item-content" ng-href="#/app/dashboard" href="http://localhost:8100/#/app/dashboard">
+          Dashboard
+        </a></ion-item>
+        <ion-item menu-close="" href="#/app/overview" class="item item-complex"><a class="item-content" ng-href="#/app/overview" href="http://localhost:8100/#/app/overview">
+          Overview
+        </a></ion-item>
+        <ion-item menu-close="" href="#/app/trends" class="item item-complex"><a class="item-content" ng-href="#/app/trends" href="http://localhost:8100/#/app/trends">
+          Trends
+        </a></ion-item>
+      </div></ion-list>
+    </div><div class="scroll-bar scroll-bar-v"><div class="scroll-bar-indicator scroll-bar-fade-out" style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 0px;"></div></div></ion-content>
+  </ion-side-menu>
+</ion-side-menus></ion-nav-view>
+  
+<script>//<![CDATA[
+document.write('<script src="//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1"><\/script>')
+//]]></script><script src="./Draft Board_files/livereload.js"></script>
+
+
+</body></html>

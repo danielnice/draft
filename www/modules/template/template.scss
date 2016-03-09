@@ -1,0 +1,25 @@
+@import "../common/common";
+
+.template{
+	.menu{
+		background-color: $grey-dark;
+		.item{
+			color: #fff;
+			background-color: transparent;
+			border: none;
+			.item-content{
+				background-color: transparent;
+			}
+		}
+		// &:after{
+		// 	content: "";
+		// 	display: block;
+		// 	position: absolute;
+		// 	right: 0;
+		// 	top: 0;
+		// 	bottom: 0;
+		// 	width: 14px;
+		// 	background-color: #000;
+		// }
+	}
+}

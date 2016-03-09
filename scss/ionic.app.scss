@@ -22,4 +22,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import "www/lib/ionic/scss/ionic";
 
 // Include module css
+@import "www/modules/common/base";
 @import "www/modules/dashboard/dashboard";
+@import "www/modules/template/template";

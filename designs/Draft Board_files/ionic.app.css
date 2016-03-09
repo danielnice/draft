@@ -9734,30 +9734,11 @@ a.button {
 .bar.bar-stable {
   background-color: #fff;
   text-transform: uppercase;
-  font-weight: light; }
+  font-weight: light;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
 
-.dash-bar {
-  margin-top: 44px;
-  height: 40px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  position: relative;
-  display: flex;
-  justify-content: space-around; }
-  .dash-bar .data {
-    width: 33%;
-    text-align: center;
-    border-left: 1px #C3C3C3 solid;
-    margin: 6px 0; }
-    .dash-bar .data:first-child {
-      border: none; }
-    .dash-bar .data .value {
-      font-size: 18px;
-      line-height: 18px; }
-    .dash-bar .data .label {
-      font-size: 10px;
-      line-height: 10px;
-      text-transform: uppercase; }
+.bar-stable.bottom {
+  top: 100px; }
 
 .scroll-content {
   background-color: #FAFAFA; }
@@ -9774,9 +9755,6 @@ a.button {
     .card .data .label {
       text-transform: uppercase;
       color: #C3C3C3; }
-
-.dashboard {
-  margin-top: -44px; }
 
 .template .menu {
   background-color: #4A4A4A; }

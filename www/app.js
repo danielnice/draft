@@ -1,7 +1,8 @@
-angular.module('spectrumSports', [
+angular.module('draft', [
   'ionic',
+  'common',
   'template',
-  'events'
+  'dashboard'
 ])
 
 .run(function($ionicPlatform) {
@@ -27,26 +28,16 @@ angular.module('spectrumSports', [
     controller: 'templateCtrl'
   })
 
-  .state('app.events', {
-    url: '/events',
+  .state('app.dashboard', {
+    url: '/dashboard',
     views: {
       'templateContent': {
-        templateUrl: 'modules/events/events.html',
-        controller: 'eventsCtrl'
+        templateUrl: 'modules/dashboard/dashboard.html',
+        controller: 'dashboardCtrl'
       }
     }
   });
 
-  // .state('app.event', {
-  //   url: '/events/:eventId',
-  //   views: {
-  //     'menuContent': {
-  //       templateUrl: '/modules/event/event.html',
-  //       controller: 'eventCtrl'
-  //     }
-  //   }
-  // });
-
   // Fallback route
-  $urlRouterProvider.otherwise('/app/events');
+  $urlRouterProvider.otherwise('/app/dashboard');
 });

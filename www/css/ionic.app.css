@@ -9763,7 +9763,8 @@ a.button {
   background-color: #FAFAFA; }
 
 .card {
-  border-top: 4px #93DB4A solid; }
+  border-top: 4px #93DB4A solid;
+  padding: 0px; }
   .card .name {
     color: #93DB4A;
     font-size: 18px;

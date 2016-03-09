@@ -1,0 +1,182 @@
+[
+	{
+		"id": "g54677245",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451703600",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+  {
+		"id": "g53437245",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451736000",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+  {
+		"id": "g54638945",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451575800",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+  {
+		"id": "g54456245",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451575800",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+  {
+		"id": "g54698775",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451757600",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+	{
+		"id": "g54698775",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451757600",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+	{
+		"id": "g54698775",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451757600",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+	{
+		"id": "g54698775",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451757600",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	},
+  {
+		"id": "g54645637",
+		"league": "NFL",
+		"thuuzScore": 90,
+		"network": "CBS",
+    "dateTime": "1451822400",
+		"period": "4th Qtr",
+    "timeRemaining": "12:05",
+    "ball": "teamTwo",
+		"teamOne": {
+			"name": "Cardinals",
+			"record": "11-2",
+			"score": "21"
+		},
+		"teamTwo": {
+			"name": "Dolphins",
+			"record": "4-9",
+			"score": "20"
+		}
+	}
+]
